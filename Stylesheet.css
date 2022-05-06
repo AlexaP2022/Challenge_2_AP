@@ -1,0 +1,163 @@
+* {
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:bisque;
+    line-height: 25px;
+}
+
+body {
+    padding: 50px;
+    background-image:url(images/img\ 2_AP.png);
+    background-size:100%;
+    margin-left:20px;
+    font-size: 15px;
+    /* Considered having a gradient background -- background: linear-gradient(rgb(9, 87, 58), rgb(207, 222, 213) 90%); */
+}
+
+header {
+    background-color:rgb(4, 45, 45);
+    margin-top: 15px; 
+    margin-bottom: 20px;
+    padding: 60px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 50px;  
+}
+
+header .nav-links {
+    display:flex;
+    float:right;
+    margin-right: 20px;
+}
+
+header .nav-links ul {
+    list-style-type: none;
+    font-size: 18px;
+} 
+
+header .nav-links li {
+    display:inline-block;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+#content {
+    padding: 25px;
+    background-color:rgb(4, 45, 45);
+    margin-top: 10px;
+}
+
+#content h3 {
+    text-decoration: underline;
+}
+
+/* Styling for About Me Image */
+.profilepic {
+    float:left;
+    width:12%;
+    height:auto;
+    margin-top:20px;
+    margin-right:20px;
+
+} 
+/* styling for p tags in About Me section to be justified with profile pic */
+#About-Me p {
+    text-align:justify;
+    padding: 5px;
+    margin-top:10px;
+    margin-left: 20px;
+}
+/* margin adjustments for various sections */
+
+#Featured-Work {
+    margin-top: 20px;
+}
+article h2 {
+    margin-top: 30px;
+}
+
+article h4 {
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+/* Flex properties used to style 3 of the applications after the main */
+.fwsubapps {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.App1 {
+    margin-top:10px;
+    text-align: center;
+}
+
+/* specifically styles the main app image */
+.App1 img {
+    width:50%;
+    height:auto;
+}
+
+/* styles all images */
+figure img {
+       height: 250px;
+       width: 350px;
+       padding:10px;
+}
+/* top margin for contact section */
+#Contact {
+    margin-top: 20px;
+}
+
+
+#Contact-Links {
+    list-style: none;
+    margin-left:10px;
+}
+
+
+footer {
+    padding: 20px;
+    font-size: small;
+    text-align: center;
+    background-color:rgb(4, 45, 45);
+    margin-top: 20px;
+}
+
+/* Pseudoclasses were used to make the page interactive upon hover */
+
+a:hover {
+    color:#FFDA03
+}
+
+a img:hover {
+    opacity: .5;
+}
+
+/* Media Screen Properties for tablet size screens and smaller*/
+@media screen and (max-width: 768px) {
+header,
+.nav-links{
+    flex-direction: column;
+}
+.fwsubapps {
+    flex-direction: column;
+}
+    
+body {
+    padding:0px;
+}
+h1 {
+    line-height:3rem;
+}
+}
