@@ -6,7 +6,7 @@ Link to GH Repository:https://github.com/AlexaP2022/Challenge_2_AP
 
 Below is a series of screenshots of my deployed professional portofolio.  
 
-![ScreenShot](/Challenge2_Top_AP.jpg)
+![ScreenShot](/Challenge2_Top_AP.png)
 
 
 ![ScreenShot](/Challenge2_Middle_AP.png)
